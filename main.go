@@ -7,8 +7,14 @@ func main() {
 	// var card = "Ace of Spades"
 
 	cards := newDeck()
-
-	// returns a new slice we hold in the cards item
-
+	cards.shuffle()
 	cards.print()
+
+	// hand, remainingCards := deal(cards, 5)
+
+	// cards.saveToFile("my-cards")
+
+	// otherCards := newDeckFromFile("my-card")
+	// otherCards.print()
+
 }
